@@ -2,8 +2,11 @@
     {
         "@timestamp": "2016-12-26T16:22:14.000Z",
         "destination.domain": "vhost1.domaine.fr",
+        "event.category": "web",
         "event.dataset": "apache.access",
+        "event.kind": "event",
         "event.module": "apache",
+        "event.outcome": "failure",
         "fileset.name": "access",
         "http.request.method": "GET",
         "http.request.referrer": "-",
